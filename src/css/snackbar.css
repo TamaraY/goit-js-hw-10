@@ -1,0 +1,72 @@
+.form {
+  width: 360px;
+}
+
+.delay-label {
+  color: #2e2f42;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.delay-input {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  padding: 8px 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.radio-field {
+  border-radius: 4px;
+  border: 1px solid #808080;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 14px;
+  margin-bottom: 24px;
+}
+
+.legend-state {
+  color: #2e2f42;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+}
+
+.radio-label {
+  color: #2e2f42;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.btn-submit {
+  width: 360px;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  border: none;
+  background: #4e75ff;
+
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+}
