@@ -7,6 +7,7 @@ document.querySelector('.form').addEventListener('submit', function (event) {
   event.preventDefault();
 
   const form = event.target;
+  const delayInput = form.querySelector('input[name="delay"]');
   const delay = form.querySelector('input[name="delay"]').value;
   const state = form.querySelector('input[name="state"]:checked').value;
 
@@ -47,4 +48,6 @@ document.querySelector('.form').addEventListener('submit', function (event) {
   radioBtnDeact.forEach(radio => {
     radio.checked = false;
   });
+
+  delayInput.value = '';
 });
