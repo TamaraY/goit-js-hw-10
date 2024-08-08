@@ -20,7 +20,7 @@ document.querySelector('.form').addEventListener('submit', function (event) {
       } else {
         reject(delay);
       }
-    });
+    }, delay);
   });
 
   promise
